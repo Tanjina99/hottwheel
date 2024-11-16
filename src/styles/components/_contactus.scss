@@ -1,0 +1,141 @@
+.contact-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 20px;
+
+    margin-top: 80px; 
+}
+  
+.contact-header {
+    text-align: center;
+    padding: 60px 0;
+    background: linear-gradient(135deg, #7eabdc, #57b4cd);
+    color: white;
+}
+  
+.contact-header h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: -50px;
+}
+  
+.message-form,
+.contact {
+    width: 44%;
+}
+  
+.message-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+  
+.message-form h3 {
+    color: #80b2e7;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+  
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.form-item {
+    width: 48%; 
+}
+  
+.send-button {
+    width: 100%;
+    background-color: #79a5d4;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+.send-button:hover {
+    background-color: #65a7dd;
+}
+  
+.contact {
+    background: linear-gradient(135deg, #1d8e38, #a0f0b3);
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contact h3 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+  
+.contact-details p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+  
+.contact-details p svg {
+    margin-right: 18px;
+}
+  
+.social {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+}
+  
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.social a:hover {
+    background-color: #ffffff;
+    color: #1d8e38;
+}
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+    }
+  
+    .message-form,
+    .contact {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .form-item {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,161 @@
+.all-products-container {
+    display: flex;
+    justify-content: center;
+    padding: 90px 15px;
+}
+  
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+.filters {
+    margin-top: 10px;
+    flex: 0 0 300px;
+    padding: 60px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+  
+.filter-title {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+    gap: 10px; 
+}
+
+.filter-icon {
+    font-size: 24px; 
+    color: #333;
+}
+  
+.filter-section {
+    margin-bottom: 20px;
+}
+  
+.sub-title {
+    font-size: 18px;
+    margin-top: 14px;
+    font-weight: 500;
+}
+  
+.filter-list {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.filter-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+  
+.filter-item input[type="checkbox"],
+.filter-item input[type="radio"] {
+    margin-right: 10px;
+}
+  
+.products {
+    flex: 1;
+    padding-left: 20px;
+}
+  
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+  
+.category {
+    margin-bottom: 30px;
+}
+  
+.category-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+  
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+}
+  
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+  
+.product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card p {
+    margin-bottom: 13px; 
+    font-size: 16px; 
+    text-shadow: 1px 1px 3px rgba(72, 66, 66, 0.2); 
+}
+  
+.product-card .highlight {
+    font-weight: bold; 
+    color: #738292;
+}
+  
+.bike-name {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.custom-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+  
+.price-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 16px;
+}
+  
+.price-button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+  
+.price-button:hover {
+    background-color: #218f3b;
+}
+  
+.filter-list {
+    margin-top: 10px;
+}
+  
+.filter-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+  
+.filter-item input[type="radio"] {
+    margin-right: 10px;
+}
+    

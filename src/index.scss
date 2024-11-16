@@ -1,0 +1,72 @@
+
+@import "./styles/global"
+// @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+// html,
+// body {
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//   margin: 0;
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   font-family: 'Open Sans Condensed', sans-serif;
+// }
+
+// div[class*=box] {
+//   height: 33.33%;
+//   width: 100%; 
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .box-1 {
+//   background-color: #FF6766;
+// }
+
+// // Global button styles
+// .btn {
+//   line-height: 50px;
+//   height: 50px;
+//   text-align: center;
+//   width: 250px;
+//   cursor: pointer;
+//   font-size: 1rem; // You can adjust font size if needed
+//   padding: 0 15px; // Add padding for a better button size
+
+//   /* Add common button styles here */
+//   border-radius: 8px;
+//   transition: background-color 0.3s ease, transform 0.3s ease;
+//   font-weight: bold;
+
+//   &:hover {
+//     transform: translateY(-3px); /* Subtle hover effect */
+//   }
+
+//   &:active {
+//     transform: translateY(1px); /* Subtle push down effect on click */
+//   }
+// }
+
+// // Back button style (specific override)
+// .back-button {
+//   background-color: #333;
+//   color: #fff;
+//   border: none;
+  
+//   &:hover {
+//     background-color: #555;
+//   }
+// }
+
+// // Shop now button style (specific override)
+// .shop-now-btn {
+//   background-color: hsl(0, 56%, 36%);
+//   color: lavender;
+  
+//   &:hover {
+//     background-color: skyblue;
+//   }
+// }

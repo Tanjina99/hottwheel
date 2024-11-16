@@ -1,0 +1,33 @@
+.simple-banner {
+  width: 100%;
+  height: 400px; 
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+              url('/images/bike.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px; 
+  border-radius: 20px;
+  max-width: 1220px; 
+  margin-left: auto;  
+  margin-right: auto; 
+}
+
+.banner-content {
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.banner-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.banner-subtitle {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  margin: 0;
+}

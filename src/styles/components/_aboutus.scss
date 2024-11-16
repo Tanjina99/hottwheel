@@ -1,0 +1,75 @@
+.about-us-container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 20px 10px; 
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  
+  /* Added margin-top to space out from the navbar */
+  margin-top: 100px; 
+
+  .about-title {
+    margin-top: 30px; 
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    
+    &.left-image {
+      flex-direction: row-reverse;
+    }
+
+    .about-image {
+      width: 30%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-text {
+      font-weight: 500;
+      width: 70%;
+      padding: 0 20px;
+      color: #241e1e;
+
+      h1 {
+        font-weight: 700;
+        color: #464545;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #5a4242;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .about-us-container {
+    padding: 20px; /* Restore padding for smaller screens */
+    margin-top: 50px; /* Adjust top margin for smaller screens */
+  }
+
+  .about-section {
+    flex-direction: column;
+
+    .about-image,
+    .about-text {
+      width: 100%;
+      padding: 0;
+    }
+
+    .about-text {
+      margin-top: 20px;
+    }
+  }
+}
